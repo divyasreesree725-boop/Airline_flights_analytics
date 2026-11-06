@@ -7,29 +7,29 @@ A Databricks Medallion pipeline (Bronze, Silver, Gold) built with Lakeflow Spark
 ## Dashboard
 
 ### Overview
-![Overview](Dashboard_Overview.png)
+![Overview](airline_dashboard_overview.png)
 
 ### Airlines, Routes and Delays
-![Airlines, Routes and Delays](Dashboard_airlines_routes_delays.png)
+![Airlines, Routes and Delays](airlines,delays,routes.png)
 
 ### Data Quality
-![Data Quality](dashboard_data_quality.png)
+![Data Quality](DATA_QUALITY_RESULT.png)
 
 ## Pipeline
 
-![Pipeline graph](Pipeline_Graph.png)
+![Pipeline graph](PIPELINE_GRAPH.png)
 
 Bronze keeps the raw data, Silver cleans it and quarantines bad rows, and Gold builds the summary tables.
 
 ## Data quality and reconciliation
 
-![Data quality result](Data_Quality_Result.png)
+![Data quality result](DATA_QUALITY_RESULT.png)
 
 1,365 Bronze rows = 1,321 clean + 19 rejected + 25 duplicates removed.
 
 ## Gold table example
 
-![Airline summary](Gold_Airline_summary.png)
+![Airline summary](GOLD_AIRLINE_SUMMARY.png)
 
 ## Cleaning rules
 
