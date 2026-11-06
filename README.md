@@ -10,10 +10,10 @@ A Databricks Medallion pipeline (Bronze, Silver, Gold) built with Lakeflow Spark
 ![Overview](airline_dashboard_overview.png)
 
 ### Airlines, Routes and Delays
-![Airlines, Routes and Delays](airlines,delays,routes.png)
+![Airlines, Routes and Delays](airlines,delays,routes dashboard.png)
 
 ### Data Quality
-![Data Quality](DATA_QUALITY_RESULT.png)
+![Data Quality](data quality issue dashboard.png)
 
 ## Pipeline
 
